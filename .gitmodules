@@ -1,0 +1,15 @@
+[submodule "web-app/MoJS/MoVC"]
+	path = web-app/MoJS/MoVC
+	url = https://github.com/momomodotcom/MoVC.git
+[submodule "web-app/MoJS/MoCP"]
+	path = web-app/MoJS/MoCP
+	url = https://github.com/momomodotcom/MoCP.git
+[submodule "web-app/MoJS/MoEV"]
+	path = web-app/MoJS/MoEV
+	url = https://github.com/momomodotcom/MoEV.git
+[submodule "web-app/MoJS/MoVC_Links_MoCP"]
+	path = web-app/MoJS/MoVC_Links_MoCP
+	url = https://github.com/momomodotcom/MoVC_Links_MoCP.git
+[submodule "web-app/MoJS/MoQR"]
+	path = web-app/MoJS/MoQR
+	url = https://github.com/momomodotcom/MoQR.git
