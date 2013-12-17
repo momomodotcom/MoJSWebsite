@@ -1,4 +1,5 @@
 (function() {
+
         // ======================= Config =======================
         require.all = {
                 jQuery                : "App/libs/jquery.min",
