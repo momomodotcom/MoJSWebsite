@@ -7,9 +7,9 @@
 [submodule "web-app/MoJS/MoEV"]
 	path = web-app/MoJS/MoEV
 	url = https://github.com/momomodotcom/MoEV.git
-[submodule "web-app/MoJS/MoVC_MoCP_Integration"]
-	path = web-app/MoJS/MoVC_MoCP_Integration
-	url = https://github.com/momomodotcom/MoVC_MoCP_Integration.git
 [submodule "web-app/MoJS/MoQR"]
 	path = web-app/MoJS/MoQR
 	url = https://github.com/momomodotcom/MoQR.git
+[submodule "web-app/MoJS/MoVC_MoCP_Integration"]
+	path = web-app/MoJS/MoVC_MoCP_Integration
+	url = https://github.com/momomodotcom/MoVC_MoCP_Integration.git
