@@ -26,3 +26,86 @@ For manual
 Meaningful and useful exceptions
 
 License text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * MoQuire
+ * Why?
+ * - Smaller than the 50 kb in require.js
+ * - Nicer syntax
+ * - Will allow us to distribute the MoJS framework code without the need to third party licenses
+ * - Supports locking synchronous mode ( useful at occasion )
+ * - Faster
+ * - Allows you to combine several require files into one big file, for ultimate minimization and GZIP results
+ *      1) In require.js you are forced to have one define per file, making it impossible to merge several files into one
+ * - Not two methods, ie: require and defined. We only have one public method. MoQR(), which can be used both to require and define,
+ *   just return a value to define.
+ * - If your MoQR() statement is not in a file on its own, then you can name it in the first parameter.
+ * - Cross domain
+ * - Circular dependencies - Although with some requirements on usage
+ *
+ * - TODO CSS, LESS, TEXT
+ *
+ * - TODO Kill promises from cache when there is a fail on file load, otherwise possible memory leak, but not really big issue
+ * - TODO Remove unenessary apply and call calls, and invoke method directly where possible
+ *
+ * Uses a promise based approach, allows you to define statements in any order
+ * Can define as path/to/file.js  .... http://absolute/path/to/file.js
+ * and someone looking for path/to/file.js will first try to find the first, if not, then it tries the full path, relative to app.root
+ */
+
+
+
+/**
+ * No threading or listening involved meaning that other than a small memory footprint,
+ * this library does not utilize any cpu power to determine when an event is fired or not.
+ *
+ * TODO Consider key as optional if on is provided on listen and notify
+ */
+
+
+
+*
+ * for ( var in array ) not allowed other than for object literals! Please use for ( var i = 0; ... ; i++ )
+ *
+ *
+ * TODO Throw relevant exceptions when there is an error in the view, needs to conform strictly
+ * TODO Expressions <% %> and <%= %>
+ * TODO Evaluate dollar expressions such as method calls() and global scope calls and properties ( Window )
+ * TODO Consider a compile strategy if possible. Taglibs method should not really be invoked until template is actually rendered, should be possible to resuse
+ * TODO Comments
+ * TODO Model passed as a model as well as its properties. To body as well
+ * TODO dollar.getVal() on tag dollars attributes
+ * TODO Cache the taglibinstance and make singletons like MoVC
+ * TODO Break dependency on jQuery
+ * TODO Refactor methods into corresponding classes
+ * TODO Break dependency on require ( Too big for what we are actually using )
+ * TODO Include out method to view for <% %> blocks
+ * TODO Preload taglibs feature
+ * TODO Allow for the passing of model to tags such as if else out
+ * TODO Body should possibly be a class of its own... if invoked in taglib return itself, and when output in a dollar should
+ * TODO jquery attributes can not handle "" use my old regex
+ * TODO Synchronous loading of files and invokations as an option
+ * TODO Escape code ... do not proccess anything within a block, just output
+ * TODO TAGS: createlink, message, rand, script, css, less, cache, import and cache taglibraries and templates, oi, si, message ( recursive )
+ * TODO CSS, LESS views folder .. figure out
+ * TODO Think about model strategy real hard
+ *
+ * TOOD Switch var i = 0; while ... for ( var i = 0; ... ; i++ )
+ * **/
