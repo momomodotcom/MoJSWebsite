@@ -1,0 +1,6 @@
+
+class MoJSController {
+
+    def index() {
+    }
+}

@@ -1,0 +1,28 @@
+* i18n support, use plugin
+* less css support, either taglib support or through MoQR
+* consider adding support for single attributes in taglibs without values : <m:idget k/>
+* MoVC exlude map of urls ...
+* Allow for calling a taglib through MoCP.m.abc()
+* less taglib, css taglib
+* Sync on each ... also skip ... MoCP sync method
+* MoEV replace
+* globalize bullshit
+* Publicize useful methods
+* MoXY need to come to life
+* Taglib link
+* Consider making MoQR default as arguments as well
+* MoEV throw exception
+* MoCP plugin on MoVC similar to handlebars plugin
+* MoCP - preload textfiles as well
+* MoVC - createURL .......
+* MoEV each!!!! key
+* Move out the extending logic from MoVC. A taglib should be able to extend another taglib and so on
+
+
+
+=====================
+For manual
+
+Meaningful and useful exceptions
+
+License text
