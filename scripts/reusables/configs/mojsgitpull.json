@@ -1,0 +1,16 @@
+{	
+	"command" : "git add -u",
+
+        "root"    : "../",
+
+	"dirs"    : [
+                "web-app/MoJS/MoVC",
+                "web-app/MoJS/MoCP",
+                "web-app/MoJS/MoQR",
+                "web-app/MoJS/MoEV",
+                "web-app/MoJS",
+                ""
+        ],
+
+	"lock": true
+}
