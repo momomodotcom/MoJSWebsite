@@ -1,0 +1,3 @@
+[submodule "MoJS"]
+	path = web-app/MoJS
+	url = https://github.com/momomodotcom/MoJS.git
